@@ -1,9 +1,16 @@
 import "./App.css";
+import Form from "./components/Form";
+import HalfRight from "./components/HalfRight";
+import HalfLeft from "./components/HalfLeft";
 
 function App() {
   return (
     <>
-      <div>hola</div>
+      <div className="flex h-screen relative">
+        <HalfLeft />
+        <Form />
+        <HalfRight />
+      </div>
     </>
   );
 }

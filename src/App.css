@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #f4f4f4;
+  --secondary-color: #3333;
+  --hover-all: #de263d;
+  background-color: #f5f5f5;
+}
+
+.halfCover {
+  background-image: url("/public/cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
