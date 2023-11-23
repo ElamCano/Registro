@@ -6,7 +6,7 @@ import HalfLeft from "./components/HalfLeft";
 function App() {
   return (
     <>
-      <div className="flex h-screen relative">
+      <div className="mainFont flex h-screen relative">
         <HalfLeft />
         <Form />
         <HalfRight />

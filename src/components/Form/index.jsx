@@ -5,7 +5,7 @@ export default function Form() {
   return (
     <div className="absolute bg-[#f5f5f5] h-[500px] w-[350px] md:w-[650px] md:h-[750px] xl:w-[400px] xl:h-[500px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 backdrop-blur-md border-2 border-gray-300 rounded-xl shadow-xl hover:shadow-2xl flex items-center justify-center">
       <form className=" flex flex-col w-[60%]">
-        <h1 className="font-bold text-[30px] md:text-[50px] xl:text-[30px] text-center">
+        <h1 className="font-extrabold text-[30px] md:text-[50px] xl:text-[30px] text-center">
           Registro
         </h1>
         <Inputform placeholder={"Nombre"} imagen={"nombre.svg"} />
